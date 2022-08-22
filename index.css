@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #3B3355;
+    color: #BFCDE0;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    background: #5D5D81;
+    border: 0;
+    padding: 6px;
+    color: #BFCDE0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.newGameBtn {
+    display: block;
+    margin: 30px auto;
+    padding: 8px 16px;
+}
+
+#homeScoreEl {
+    color: #BFCDE0;
+    background: #000505;
+    padding: 10px;
+}
+
+#guestScoreEl {
+    color: #BFCDE0;
+    background: #000505;
+    padding: 10px;
+}
