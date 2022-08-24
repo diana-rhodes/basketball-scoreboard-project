@@ -23,7 +23,7 @@ function highlightLeader() { // call every time the score is updated
 
 // Increment Home team's score and update the text element to match
 function incrementHomeBy1() { 
-    homeScore ++
+    homeScore += 1
     document.getElementById("homeScoreEl").textContent = homeScore
     highlightLeader()
 }
@@ -42,7 +42,7 @@ function incrementHomeBy3() {
 
 // Increment Guest team's score and update the text element to match
 function incrementAwayBy1() {
-    awayScore ++
+    awayScore +=1
     document.getElementById("awayScoreEl").textContent = awayScore
     highlightLeader()
 }
